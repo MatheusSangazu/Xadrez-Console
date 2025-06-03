@@ -12,7 +12,7 @@
 
         public Peca(Tabuleiro tabu, Cor cor)
         {
-            this.posicao = posicao;
+            this.posicao = null;
             this.tabu = tabu;
             this.cor = cor;
             this.qteMovimentos = 0;
