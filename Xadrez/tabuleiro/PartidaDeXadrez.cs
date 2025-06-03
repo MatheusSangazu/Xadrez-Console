@@ -1,11 +1,10 @@
 ﻿using System;
-using JXadrez;
 using tabuleiro;
-
+using Xadrez;
 
 namespace Xadrez
 {
-    class Program
+    class PartidaDeXadrez
     {
         static void Main(string[] args)
         {

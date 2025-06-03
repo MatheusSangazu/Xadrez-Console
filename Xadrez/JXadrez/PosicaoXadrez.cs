@@ -1,13 +1,12 @@
-﻿
-using tabuleiro;
+﻿using tabuleiro;
 
 namespace JXadrez
 {
     class PosicaoXadrez
     {
+
         public char coluna { get; set; }
         public int linha { get; set; }
-
 
         public PosicaoXadrez(char coluna, int linha)
         {
@@ -19,6 +18,7 @@ namespace JXadrez
         {
             return new Posicao(8 - linha, coluna - 'a');
         }
+
         public override string ToString()
         {
             return "" + coluna + linha;

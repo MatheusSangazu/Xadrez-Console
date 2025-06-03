@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="tabuleiro\PartidaDeXadrez.cs" />
+  </ItemGroup>
+
 </Project>
